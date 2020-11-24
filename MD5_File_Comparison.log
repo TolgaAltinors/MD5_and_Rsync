@@ -1,0 +1,153 @@
+2020-04-13 23:10:01,293 main INFO Comparison script started
+2020-04-13 23:10:01,306 main INFO Connected to database XXXXXXXXXXXX
+2020-04-13 23:10:01,306 main INFO 
+2020-04-13 23:10:01,306 main INFO Searching for sefas paths
+2020-04-13 23:10:01,790 main INFO 134 sefas app paths found in DB
+2020-04-13 23:10:01,790 main INFO 
+2020-04-13 23:10:01,790 main INFO Checking for existing sefas apps
+2020-04-13 23:10:01,791 main INFO 134 existing sefas app paths found in DB
+2020-04-13 23:10:01,791 main INFO 
+2020-04-13 23:10:01,791 main INFO Searching for config file paths
+2020-04-13 23:10:01,888 main INFO 170 config paths found in DB
+2020-04-13 23:10:01,888 main INFO 
+2020-04-13 23:10:01,888 main INFO Checking for existing external resources
+2020-04-13 23:10:01,888 main INFO 4 existing resource paths found in DB
+2020-04-13 23:10:01,888 main INFO 
+2020-04-13 23:10:01,889 main INFO 
+2020-04-13 23:10:01,889 main INFO No new app paths found
+2020-04-13 23:10:01,889 main INFO 
+2020-04-13 23:10:01,965 main INFO 
+2020-04-13 23:10:01,966 main INFO No new external resource paths found
+2020-04-13 23:10:01,966 main INFO 
+2020-04-13 23:10:01,966 main INFO 
+2020-04-13 23:10:01,966 main INFO Number of config files not found in the file system - 7
+2020-04-13 23:10:01,966 main INFO 
+2020-04-13 23:10:01,966 main INFO 	/XXXX/XXXX/XXXXXXX/XXXXXXXXX/config/4767.cfg
+2020-04-13 23:10:01,966 main INFO 	/XXXX/XXXX/XXXXXXX/XXXXXXXXX/config/2489.cfg
+2020-04-13 23:10:01,966 main INFO 	/XXXX/XXXX/XXXXXXX/XXXXXXXXX/config/5230.cfg
+2020-04-13 23:10:01,966 main INFO 	/XXXX/XXXX/XXXXXXX/XXXXXXXXX/config/4979.cfg
+2020-04-13 23:10:01,966 main INFO 	/XXXX/XXXX/XXXXXXX/XXXXXXXXX/config/Zurich.cfg
+2020-04-13 23:10:01,966 main INFO 	/XXXX/XXXX/XXXXXXX/XXXXXXXXX/CONFIG/bgretrl1.ini
+2020-04-13 23:10:01,966 main INFO 	/XXXX/XXXX/XXXXXXX/XXXXXXXXX/CONFIG/bgretrl2.ini
+2020-04-13 23:10:01,967 main INFO 
+2020-04-13 23:10:01,967 main INFO 
+2020-04-13 23:10:09,728 main INFO 
+2020-04-13 23:10:09,728 main INFO LOCAL SERVER XXXXXXXXXXXXXXX
+2020-04-13 23:10:09,728 main INFO 
+2020-04-13 23:10:09,728 main INFO ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+2020-04-13 23:10:09,728 main INFO LIST OF APPLICATIONS / RESOURCES THAT MATCH - 7
+2020-04-13 23:10:09,728 main INFO ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+2020-04-13 23:10:09,728 main INFO 	/XXXX/XXXX/XXXXXX/XXXXXXXXX/YY/ZZZZZ
+2020-04-13 23:10:09,728 main INFO 	/XXXX/XXXX/XXXXXX/XXXXXXXXX/TTTT
+2020-04-13 23:10:09,728 main INFO 	/XXXX/XXXX/XXXXXX/XXXXXXXXX/KKKKK
+2020-04-13 23:10:09,729 main INFO 	/XXXX/XXXX/XXXXXX/XXXXXXXXX/BBBBBBBBBBBB
+2020-04-13 23:10:09,729 main INFO 	/XXXX/XXXX/XXXXXX/XXXXXXXXX/SSSSSSSSSSS
+2020-04-13 23:10:09,729 main INFO 	/XXXX/XXXX/XXXXXX/XXXXXXXXX/AAAAAAAAAA
+2020-04-13 23:10:09,729 main INFO ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+2020-04-13 23:10:09,729 main INFO ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+2020-04-13 23:10:09,729 main INFO LIST OF APPLICATIONS / RESOURCES TO BE CHECKED - 4
+2020-04-13 23:10:09,729 main INFO ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+2020-04-13 23:10:09,729 main INFO 	/XXXX/XXXX/XXXXXX/Resources
+2020-04-13 23:10:09,729 main INFO 	/XXXX/XXXX/XXXXXX/Resources/RRRRRRRR
+2020-04-13 23:10:09,729 main INFO 	/opdd/data/traffic/Resources/UUUUUUUUUUU
+2020-04-13 23:10:09,729 main INFO 	/XXXX/XXXX/XXXXXX/XXXXXXXXX/WWWWWWWWWWWWWW
+2020-04-13 23:10:09,729 main INFO ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+2020-04-13 23:10:09,729 main INFO 
+2020-04-13 23:10:09,729 main INFO **************************************************************
+2020-04-13 23:10:09,730 main INFO **************************************************************
+2020-04-13 23:10:09,730 main INFO Directory to compare /XXXX/XXXX/XXXXXX/Resources
+2020-04-13 23:10:09,730 main INFO **************************************************************
+2020-04-13 23:10:09,730 main INFO **************************************************************
+2020-04-13 23:10:09,730 main INFO 
+2020-04-13 23:10:09,730 main INFO 
+2020-04-13 23:10:09,730 main INFO **************************************************************
+2020-04-13 23:10:09,730 main INFO Checking differences in files in servers XXXXXXXXXXXX and YYYYYYYYYYYYY
+2020-04-13 23:10:09,730 main INFO **************************************************************
+2020-04-13 23:10:09,730 main INFO 
+2020-04-13 23:10:09,730 main INFO Running Local command  : rsync -avh --exclude '*/' --exclude 'spool/' --exclude '*.pyc' --exclude '*.zip' '/XXXX/XXXX/XXXXXX/Resources/'
+2020-04-13 23:10:09,730 main INFO 
+2020-04-13 23:10:09,810 main INFO Running Remote command  : rsync -avh --exclude '*/' --exclude 'spool/' --exclude '*.pyc' --exclude '*.zip' -e ssh user@XXXXXXXXXX:'/XXXX/XXXX/XXXXXX/Resources/'
+2020-04-13 23:10:09,810 main INFO 
+2020-04-13 23:10:10,091 main INFO * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+2020-04-13 23:10:10,092 main INFO BREAKDOWN FOR DIRECTORY - /XXXX/XXXX/XXXXXX/Resources/
+2020-04-13 23:10:10,092 main INFO * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+2020-04-13 23:10:10,092 main INFO Files in both          : 32
+2020-04-13 23:10:10,092 main INFO Files in local only    : 0
+2020-04-13 23:10:10,092 main INFO Files in remote only   : 4
+2020-04-13 23:10:10,092 main INFO 
+2020-04-13 23:10:10,092 main INFO --------------------------------------------------------------
+2020-04-13 23:10:10,092 main INFO REMOTE SERVER XXXXXXXXXXXX - /XXXX/XXXX/XXXXXX/Resources/ (NOT IN SYNC)
+2020-04-13 23:10:10,093 main INFO --------------------------------------------------------------
+2020-04-13 23:10:10,093 main INFO 
+2020-04-13 23:10:10,093 main INFO * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+2020-04-13 23:10:10,093 main INFO FILE DIFFERENCES IN XXXXXXXXXXXX and YYYYYYYYYYYYY
+2020-04-13 23:10:10,093 main INFO * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+2020-04-13 23:10:10,093 main INFO 
+2020-04-13 23:10:10,093 main INFO *************** INVESTIGATE ***************
+2020-04-13 23:10:10,093 main INFO *************** INVESTIGATE ***************
+2020-04-13 23:10:10,093 main INFO Main key: C0AR06R0
+2020-04-13 23:10:10,093 main INFO 	 Local Date    : 2017-08-17 15:36:29
+2020-04-13 23:10:10,093 main INFO 	 Remote Date   : 2015-02-18 15:31:28
+2020-04-13 23:10:10,093 main INFO 	 Local Size    : 28548
+2020-04-13 23:10:10,093 main INFO 	 Remote Size   : 28548
+2020-04-13 23:10:10,093 main INFO 	 Local Date is the latest and size is the same
+2020-04-13 23:10:10,093 main INFO ******************* END *******************
+2020-04-13 23:10:10,094 main INFO 
+2020-04-13 23:10:10,094 main INFO *************** INVESTIGATE ***************
+2020-04-13 23:10:10,094 main INFO *************** INVESTIGATE ***************
+2020-04-13 23:10:10,094 main INFO Main key: C0S0CR12
+2020-04-13 23:10:10,094 main INFO 	 Local Date    : 2017-08-17 15:36:30
+2020-04-13 23:10:10,094 main INFO 	 Remote Date   : 2015-02-18 15:31:28
+2020-04-13 23:10:10,094 main INFO 	 Local Size    : 80039
+2020-04-13 23:10:10,094 main INFO 	 Remote Size   : 80039
+2020-04-13 23:10:10,094 main INFO 	 Local Date is the latest and size is the same
+2020-04-13 23:10:10,094 main INFO ******************* END *******************
+2020-04-13 23:10:10,094 main INFO 
+2020-04-13 23:10:10,094 main INFO *************** INVESTIGATE ***************
+2020-04-13 23:10:10,094 main INFO *************** INVESTIGATE ***************
+2020-04-13 23:10:10,094 main INFO Main key: T1D0BASE
+2020-04-13 23:10:10,094 main INFO 	 Local Date    : 2017-08-17 15:36:32
+2020-04-13 23:10:10,094 main INFO 	 Remote Date   : 2015-02-18 15:31:28
+2020-04-13 23:10:10,094 main INFO 	 Local Size    : 1521
+2020-04-13 23:10:10,095 main INFO 	 Remote Size   : 1521
+2020-04-13 23:10:10,095 main INFO 	 Local Date is the latest and size is the same
+2020-04-13 23:10:10,095 main INFO ******************* END *******************
+2020-04-13 23:10:10,095 main INFO 
+2020-04-13 23:10:10,095 main INFO *************** INVESTIGATE ***************
+2020-04-13 23:10:10,095 main INFO *************** INVESTIGATE ***************
+2020-04-13 23:10:10,095 main INFO Main key: T1HEL500
+2020-04-13 23:10:10,095 main INFO 	 Local Date    : 2017-08-17 15:36:33
+2020-04-13 23:10:10,095 main INFO 	 Remote Date   : 2015-02-18 15:31:28
+2020-04-13 23:10:10,095 main INFO 	 Local Size    : 2062
+2020-04-13 23:10:10,095 main INFO 	 Remote Size   : 2062
+2020-04-13 23:10:10,095 main INFO 	 Local Date is the latest and size is the same
+2020-04-13 23:10:10,095 main INFO ******************* END *******************
+2020-04-13 23:10:10,095 main INFO 
+2020-04-13 23:10:10,095 main INFO *************** INVESTIGATE ***************
+2020-04-13 23:10:10,095 main INFO *************** INVESTIGATE ***************
+2020-04-13 23:10:10,096 main INFO Main key: a3toa4_deimposition_john.cfg
+2020-04-13 23:10:10,096 main INFO 	 Local Date    : 2017-08-17 15:36:27
+2020-04-13 23:10:10,096 main INFO 	 Remote Date   : 2015-02-18 15:31:28
+2020-04-13 23:10:10,096 main INFO 	 Local Size    : 1846
+2020-04-13 23:10:10,096 main INFO 	 Remote Size   : 1846
+2020-04-13 23:10:10,096 main INFO 	 Local Date is the latest and size is the same
+2020-04-13 23:10:10,096 main INFO ******************* END *******************
+2020-04-13 23:10:10,096 main INFO 
+2020-04-13 23:10:10,096 main INFO ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~
+2020-04-13 23:10:10,096 main INFO ~ ~ FILES IN REMOTE ONLY - XXXXXXXXXXXX
+2020-04-13 23:10:10,096 main INFO ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~
+2020-04-13 23:10:10,096 main INFO 
+2020-04-13 23:10:10,097 main INFO Main key: F1G1DFLT
+2020-04-13 23:10:10,097 main INFO 	 Remote Date    : 2017-07-28 10:07:21
+2020-04-13 23:10:10,097 main INFO 	 Remote Size    : 8854
+2020-04-13 23:10:10,097 main INFO Main key: Resource.tar.gz
+2020-04-13 23:10:10,097 main INFO 	 Remote Date    : 2015-08-10 17:08:02
+2020-04-13 23:10:10,097 main INFO 	 Remote Size    : 956319
+2020-04-13 23:10:10,097 main INFO Main key: T1001148
+2020-04-13 23:10:10,097 main INFO 	 Remote Date    : 2016-02-09 17:03:27
+2020-04-13 23:10:10,097 main INFO 	 Remote Size    : 2113
+2020-04-13 23:10:10,097 main INFO Main key: a3toa4_deimpositionDuplex.cfg
+2020-04-13 23:10:10,097 main INFO 	 Remote Date    : 2016-06-10 14:52:54
+2020-04-13 23:10:10,097 main INFO 	 Remote Size    : 1989
+2020-04-13 23:10:10,097 main INFO  
+2020-04-13 23:10:10,098 main INFO 
